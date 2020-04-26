@@ -1,0 +1,7 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core">
+    <div id="loginIntro">
+        <div class="logo"> </div>
+        <h1 id="productName">${it.productName}</h1>
+    </div>
+</j:jelly>

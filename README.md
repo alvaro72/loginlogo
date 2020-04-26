@@ -32,9 +32,9 @@ To configure the plugin, go to **Manage Jenkins** and then to **System Configura
 
 Scroll down to **Login Logo Section**.
 
-There you can change Welcome Jenkins message and add Extra CSS on Login Page.
+There you can change **Welcome Jenkins message** and add **Extra CSS** on Login Page.
 
-For example if you want to use images in Extra CSS, here is how to do with background.png.
+For example if you want to use images in Extra CSS, here is how to do with _background.png_.
 
 ```
 body {

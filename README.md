@@ -22,7 +22,7 @@ Build hpi jenkins package.
 
 ### Install login-logo plugin
 
-To install plugin in Jenkins, go to Manage Jenkins and then to Manage Plugins, then go to Advanced Configuration and Upload a Plugin.
+To install plugin in Jenkins, go to **Manage Jenkins** and then to **Manage Plugins**, then go to **Advanced Configuration** and **Upload a Plugin.**
 Then file browse to _target/login-logo.hpi_ file.
 Finally restart Jenkins.
 

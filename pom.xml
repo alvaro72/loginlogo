@@ -9,9 +9,9 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>login-logo</artifactId>
-    <version>0.9-SNAPSHOT</version>
+    <version>0.98-SNAPSHOT</version>
     <packaging>hpi</packaging>
-    <description>This Jekins plugin adds a custom logo to your Jenkins login page. It also allows to replace Welcome Jenkins message and add Extra CSS.</description>
+    <description>This Jenkins plugin adds a custom logo to your Jenkins login page. It also allows to replace Welcome Jenkins message and add Extra CSS.</description>
     <properties>
         <jenkins.version>2.164.1</jenkins.version>
         <java.level>8</java.level>

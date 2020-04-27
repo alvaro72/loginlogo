@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="${resURL}/css/simple-page.theme.css" type="text/css" />
     <style>
         .simple-page .logo {
-        background-image: url('${resURL}/plugin/login-logo/logo.png') !important;
+        background-image: url('plugin/login-logo/logo.png');
         background-size: contain;
         }
         ${it.extraCss}

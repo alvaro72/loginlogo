@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-
+    This Jenkins plugin adds a custom logo to your Jenkins login page. It also allows to replace Welcome Jenkins message and add Extra CSS.
 </div>

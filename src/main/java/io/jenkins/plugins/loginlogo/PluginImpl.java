@@ -2,12 +2,9 @@ package io.jenkins.plugins.loginlogo;
 
 import hudson.Plugin;
 import hudson.PluginWrapper;
-import hudson.util.ColorPalette;
 import hudson.util.PluginServletFilter;
 
-import java.awt.Color;
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,9 +16,8 @@ import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 
 /**
- * Entry point of a plugin.
+ * Entry point of login-logo plugin.
  *
- * <p>
  * There must be one {@link Plugin} class in each plugin. See javadoc of
  * {@link Plugin} for more about what can be done on this class.
  *

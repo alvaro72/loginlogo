@@ -69,14 +69,14 @@ public class LoginLogoFilter implements Filter {
             return;
         }
 
-        logger.log(Level.INFO, ".jpg or .png");
+        logger.log(Level.INFO, "Serving image with extension .jpg or .png");
         resp.setContentLength((int)file.length());
 
         FileInputStream in = new FileInputStream(file);
         OutputStream out = resp.getOutputStream();
 
         byte[] buf = new byte[1024];
-        int count;
+        int count = 0;
         while ((count = in.read(buf)) >= 0) {
             out.write(buf, 0, count);
         }
